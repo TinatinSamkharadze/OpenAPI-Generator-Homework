@@ -92,6 +92,7 @@ public class PetStoreAPISteps {
                 .body(pet)
                 .execute(resp -> resp);
         return this;
+        
     }
 
     @Step("Validate the created pet using Rest-Assured functional assertions")
@@ -107,5 +108,7 @@ public class PetStoreAPISteps {
         return this;
 
     }
+
+
 }
 
